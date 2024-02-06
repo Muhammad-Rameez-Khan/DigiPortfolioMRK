@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MRK Digi Portfolio - Feedback</title>
+    <!-- Other head elements -->
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://example.com/feedback.html';
+this.page.identifier = 'feedback_page_identifier';
+        };
+
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://digiportfoliomrk.disqus.com/embed.js';  // Replace with your Disqus shortname
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <h1>MRK Digi Portfolio</h1>
+
+        
+        <!-- Header content here -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    
+    
+    </header>
+
+    <section>
+        <!-- Move the comments section code here -->
+        <div id="disqus_thread"></div>
+        <script id="dsq-count-scr" src="//digiportfoliomrk.disqus.com/count.js" async></script>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MRK Digi Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

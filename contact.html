@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MRK Digi Portfolio - Contact</title>
+    <!-- Other head elements -->
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://example.com/contact.html'; // Replace with your contact page URL
+            this.page.identifier = 'contact_page_identifier'; // Replace with a unique identifier for your contact page
+        };
+
+        (function () {
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://digiportfoliomrk.disqus.com/embed.js'; // Replace with your Disqus shortname
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <h1>MRK Digi Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="feedback.html">Feedback</a> <!-- Add this line -->
+        </nav>
+            </header>
+
+    <!-- Disqus comments container -->
+    <div id="disqus_thread"></div>
+
+    <!-- Disqus comment count script -->
+    <script id="dsq-count-scr" src="//digiportfoliomrk.disqus.com/count.js" async></script>
+
+
+
+    <section>
+        <h2>Contact Me</h2>
+
+        <div class="contact-info">
+            <p>Feel free to reach out via email or connect on various platforms:</p>
+            <p>Email: <a href="mailto:your.email@example.com">digitechmrk@gmail.com</a></p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <img class="social-icon" src="LinkedIn.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img class="social-icon" src="GitHub.png" alt="GitHub">
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img class="social-icon" src="Twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img class="social-icon" src="Instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.upwork.com/freelancers/yourusername" target="_blank" rel="noopener noreferrer">
+                    <img class="social-icon" src="Upwork.png" alt="Upwork">
+                </a>
+                <!-- Add more social media and freelance icons as needed -->
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send me a message</h3>
+            <form action="#" method="post">
+                <!-- Add your form fields here -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <footer>
+        <p>&copy; 2024 MRK Digi Portfolio. All rights reserved.</p>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

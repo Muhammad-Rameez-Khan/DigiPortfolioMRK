@@ -1,0 +1,169 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Allow horizontal scrolling */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind other elements */
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for nav */
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e50914; /* Netflix red for hover */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; /* Adjusted padding for better content visibility */
+    margin-bottom: 100px; /* Added margin for better spacing at the bottom */
+}
+
+/* Welcome message styling */
+.welcome-message {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #fff;
+}
+
+.welcome-message h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Adjusted styling for contact form */
+.contact-form h3 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form label {
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    margin-bottom: 15px; /* Added margin for better spacing */
+    padding: 10px; /* Added padding for better spacing */
+    width: 100%; /* Make input fields take full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-form button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px; /* Added padding for better button appearance */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* About section styling */
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.about-content a {
+    color: #e50914; /* Netflix red for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about-content a:hover {
+    color: #ff3d33; /* Slightly darker red on hover */
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px; /* Adjusted width for social icons */
+    height: 40px; /* Adjusted height for social icons */
+    border-radius: 50%; /* Make social icons circular */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2); /* Enlarge the social icon on hover */
+}
+
+/* Add more styles as needed */
